@@ -1,3 +1,11 @@
+class MyClass:
+    x = 5
+
+
+p1 = MyClass()
+print(p1.x)
+
+
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -13,9 +21,3 @@ class Person:
 p1 = Person("Faizan", 22)
 p1.displayName()
 p1.displayAge()
-
-# class myClass:
-#     x = 5
-#
-# p1 = myClass()
-# print(p1.x)
